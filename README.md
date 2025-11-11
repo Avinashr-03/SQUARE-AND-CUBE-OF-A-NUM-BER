@@ -26,7 +26,8 @@ END
 ```
 
 ## OUTPUT
-
+<img width="1280" height="626" alt="image" src="https://github.com/user-attachments/assets/7053b4d9-1d60-4167-9f91-2cc0e56ee73a" />
+<img width="1600" height="1595" alt="image" src="https://github.com/user-attachments/assets/41955998-2a69-4b95-956b-fc91c51d92ad" />
 
 ## RESULT
 Thus, the square of the given data is calculated using 8051 Keil.
@@ -48,18 +49,19 @@ To write and execute an Assembly language program for finding the cube of a give
 
 ## PROGRAM
 ```
-
-
-
-
-
-
-
-
+MOV A, P0
+MOV B, A
+MUL AB
+MOV R0, A
+MOV A, R0
+MOV B, P0
+MUL AB
+MOV P2, A
+END
 ```
-
-
 ## OUTPUT
+<img width="1173" height="758" alt="image" src="https://github.com/user-attachments/assets/ed480164-922a-4d58-82db-248cbe18d03c" />
+<img width="916" height="1359" alt="image" src="https://github.com/user-attachments/assets/85a47ed0-1949-4ba6-8ff2-845a050e37ca" />
 
 ## RESULT
 Thus, the cube of the given data is calculated using 8051 Keil.
