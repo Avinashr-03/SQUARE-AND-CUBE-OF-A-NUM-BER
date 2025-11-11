@@ -16,14 +16,12 @@ To write and execute an Assembly language program for finding the square of a gi
 
 ## PROGRAM
 ```
-
-
-
-
-
-
-
-
+MOV A,P0 
+MOV R0,A 
+MOV B,R0 
+MUL AB 
+MOV P2,A 
+END
 
 ```
 
